@@ -1,0 +1,29 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.bg-img{
+    background-image: url('img/header.jpg');
+    background-size: cover;
+    height: 60vh;
+}
+#multiText {
+    color: #7f00ff;
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+.rounded-circle{
+    width: 100px;
+    height: 100px;
+}
