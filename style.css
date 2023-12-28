@@ -7,7 +7,7 @@ body::before{
 .bg-img{
     background-image: url('img/header.jpg');
     background-size: cover;
-    height: 60vh;
+    height: 70vh;
 }
 #multiText {
     color: #7f00ff;
@@ -23,7 +23,14 @@ body::before{
     }
 }
 
+
+
+
 .rounded-circle{
     width: 100px;
     height: 100px;
+}
+
+.S-up{
+    margin-top: -30px;
 }
